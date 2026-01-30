@@ -4,8 +4,7 @@ from sqlalchemy.future import select
 from sqlalchemy import func
 import math
 
-from database import get_db
-from models.movies import MovieModel
+from database import get_db, MovieModel
 from schemas.movies import MovieDetailResponseSchema, MovieListResponseSchema
 
 router = APIRouter()
